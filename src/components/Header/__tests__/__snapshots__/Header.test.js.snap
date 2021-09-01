@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render 1`] = `
+<header
+  class="header-container"
+>
+  <img
+    alt="logo"
+    class="header-logo"
+    src="logo.svg"
+  />
+  <p>
+    Edit 
+    <code>
+      src/App.tsx
+    </code>
+     and save to reload.
+  </p>
+  <a
+    class="header-link"
+    href="https://reactjs.org"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Learn React
+  </a>
+</header>
+`;

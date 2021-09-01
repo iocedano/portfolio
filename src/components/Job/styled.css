@@ -1,0 +1,19 @@
+.job-content {
+  font-family: Open Sans;
+  /* text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  transform: translateY(20px);
+  cursor: pointer; */
+}
+
+.job-company {
+  font-size: 14px;
+  color: #fff;
+}
+
+.job-title {
+  font-size: 14px;
+  color: #fff;
+}
