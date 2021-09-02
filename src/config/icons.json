@@ -2,6 +2,7 @@
   "list": [
     { "name": "react", "path": "react/react-original.svg" },
     { "name": "nodejs", "path": "nodejs/nodejs-original.svg" },
+    { "name": "npm", "path": "npm/npm-original-wordmark.svg"}
     { "name": "docker", "path": "docker/docker-original-wordmark.svg" },
     { "name": "googlecloud", "path": "googlecloud/googlecloud-original.svg" },
     { "name": "html5", "path": "html5/html5-original.svg" },

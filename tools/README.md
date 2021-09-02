@@ -23,4 +23,4 @@ curl https://raw.githubusercontent.com/devicons/devicon/master/icons/babel/babel
 ### How could I add a new icon?
 
 (glad you ask)
-Well, we just need to add a new item of the list follow object structure [here icons.json](src/config/icons.json)
+Well, we just need to add a new item of the list follow object structure [here icons.json](../src/config/icons.json)

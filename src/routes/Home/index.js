@@ -2,6 +2,23 @@ import React from "react";
 import "./styled.css";
 import Header from "../../components/Header";
 import WorkSection from './WorkSection';
+import SkillSection from "./SkillSection";
+
+const skills = [
+  { type: 'react' },
+  { type: 'nodejs' },
+  { type: 'javascript' },
+  { type: 'typescript' },
+  { type: 'jest' },
+  { type: 'sass' },
+  { type: 'yarn' },
+  { type: 'npm' },
+  { type: 'html5' },
+  { type: 'docker' },
+  { type: 'googlecloud' },
+  { type: 'python' },
+  { type: 'django' }
+];
 
 const Jobs = [{
   id: 'nytimes-1',
@@ -35,6 +52,7 @@ function App() {
     <div className="App">
       <Header />
       <WorkSection jobs={Jobs} />
+      <SkillSection skills={skills} />
     </div>
   );
 }

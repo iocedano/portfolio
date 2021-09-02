@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home/SkillSection should render 1`] = `
+<section
+  class="skillsection-container"
+>
+  <h2
+    class="skillsection-header"
+  >
+    Skills
+  </h2>
+  <ul
+    class="skillsection-list"
+  >
+    <li
+      class="skill-item"
+    >
+      <div
+        class="skill-item-img-content"
+      >
+        <img
+          alt="skill know job with require yarn developer"
+          class="skill-item-img"
+          src=""
+        />
+      </div>
+    </li>
+  </ul>
+</section>
+`;
