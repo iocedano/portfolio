@@ -1,0 +1,21 @@
+{
+  "list": [
+    { "name": "react", "path": "react/react-original.svg" },
+    { "name": "nodejs", "path": "nodejs/nodejs-original.svg" },
+    { "name": "docker", "path": "docker/docker-original-wordmark.svg" },
+    { "name": "googlecloud", "path": "googlecloud/googlecloud-original.svg" },
+    { "name": "html5", "path": "html5/html5-original.svg" },
+    { "name": "jest", "path": "jest/jest-plain.svg" },
+    { "name": "javascript", "path": "javascript/javascript-original.svg" },
+    { "name": "sass", "path": "sass/sass-original.svg" },
+    { "name": "typescript", "path": "typescript/typescript-original.svg" },
+    { "name": "yarn", "path": "yarn/yarn-original.svg" },
+    { "name": "express", "path": "express/express-original.svg" },
+    { "name": "git", "path": "git/git-original.svg" },
+    { "name": "django", "path": "django/django-original.svg" },
+    { "name": "mocha", "path": "mocha/mocha-plain.svg" },
+    { "name": "nestjs", "path": "nestjs/nestjs-plain.svg" },
+    { "name": "postgresql", "path": "postgresql/postgresql-original.svg" },
+    { "name": "python", "path": "python/python-original.svg" }
+  ]
+}
