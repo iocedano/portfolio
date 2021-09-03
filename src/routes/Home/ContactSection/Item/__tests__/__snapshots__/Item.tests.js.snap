@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home/ContactSection/Item should render 1`] = `
+<li
+  class="item-container"
+>
+  <a
+    href="https://localhost"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="contact me github"
+      class="item-container-img"
+      src=""
+    />
+  </a>
+</li>
+`;
