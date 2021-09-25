@@ -28,7 +28,8 @@
     "eject": "react-scripts eject",
     "lint-ci": "eslint \"./src/**/*.{js,ts,jsx}\"",
     "lint-fix": "eslint --fix \"./src/**/*.{js,ts,jsx}\"",
-    "format": "prettier -w \"./src/**/*.{js,ts,jsx}\""
+    "format": "prettier -w \"./src/**/*.{js,ts,jsx}\"",
+    "update-icons": "node ./tools/download-icons.js"
   },
   "eslintConfig": {
     "extends": [

@@ -1,9 +1,11 @@
 const util = require('util');
+const fs = require('fs');
 const exec = util.promisify(require('child_process').exec);
 const Icons = require('../src/config/icons.json')
 
 // Devicons
 const URL = 'https://raw.githubusercontent.com/devicons/devicon/master/icons';
+const VALID_ICONS = './src/config/validicons.json';
 
 /**
  * Get Icon URL
@@ -22,7 +24,7 @@ const getIconURL = (path) => `${URL}/${path}`;
  */
 const downloadIcon = async (icon) => {
   const command = `curl ${getIconURL(icon.path)} > ./src/assets/icons/${icon.name}.svg`;
-  return await exec(command);
+  return exec(command);
 };
 
 /**
@@ -39,17 +41,25 @@ const checkIsFileExists = async (path) => {
 }
 
 const main = async () => {
-  Icons.list.forEach(async (icon) => {
+  const validIcons = Icons.list.map(async (icon) => {
     const fileExits = await checkIsFileExists(icon.path);
 
     if (fileExits) {
-      const result = await downloadIcon(icon);
+      await downloadIcon(icon);
       console.info(`${icon.name} :: downloaded`);
-      return;
+      return icon.name;
     }
 
     console.error(`File :: ${icon.name} :: does not exists`);
-  })
+  });
+  
+  Promise.all(validIcons).then((list) => {
+    fs.writeFile(VALID_ICONS, JSON.stringify({ list }, null, '  '), 'utf8', (err) => {
+      if(err) {
+        console.log(err);
+      }
+    });
+  });
 }
 
 // Accessing the main module

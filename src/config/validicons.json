@@ -17,6 +17,8 @@
     "mocha",
     "nestjs",
     "postgresql",
-    "python"
+    "python",
+    "github",
+    "linkedin"
   ]
 }
