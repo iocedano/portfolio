@@ -2,16 +2,23 @@
 
 exports[`Job should render a single job 1`] = `
 <div
+  class="job-content"
   data-id-test="a-job-test"
 >
-  <h3>
+  <h3
+    class="job-company"
+  >
     test
   </h3>
-  <h4>
+  <h4
+    class="job-title"
+  >
     Role: 
     test
   </h4>
-  <p>
+  <p
+    class="job-description"
+  >
     test
   </p>
 </div>
