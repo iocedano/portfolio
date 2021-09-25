@@ -4,6 +4,14 @@
 
 (Since I'm bit lazy) This script allow us to download icons from [devicon repo](https://github.com/devicons/devicon).
 
+### Add a new icon
+
+* Go to [icon.json](../src/config/icons.json)
+* Add a new item to the list (check on [devicon repo](https://github.com/devicons/devicon))
+* Run `yarn update-icons`
+
+Check on [assets/icons](../src/assets/icons) and [src/config/validicons.json](../src/config/validicons.json)
+
 ### How it works?
 
 By using curl command, we check for the file existence and if it's true then we download it

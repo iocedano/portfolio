@@ -4,25 +4,28 @@ exports[`Header should render 1`] = `
 <header
   class="header-container"
 >
-  <img
-    alt="logo"
-    class="header-logo"
-    src="logo.svg"
-  />
-  <p>
-    Edit 
-    <code>
-      src/App.tsx
-    </code>
-     and save to reload.
-  </p>
-  <a
-    class="header-link"
-    href="https://reactjs.org"
-    rel="noopener noreferrer"
-    target="_blank"
+  <nav
+    class="nav-container"
   >
-    Learn React
-  </a>
+    <ul
+      class="nav-list"
+    >
+      <li
+        class="nav-item"
+      >
+        Job Histories
+      </li>
+      <li
+        class="nav-item"
+      >
+        Skills
+      </li>
+      <li
+        class="nav-item"
+      >
+        Contact
+      </li>
+    </ul>
+  </nav>
 </header>
 `;
