@@ -4,7 +4,9 @@ import Header from "../../components/Header";
 import WorkSection from './WorkSection';
 import SkillSection from "./SkillSection";
 import ContactSection from "./ContactSection";
-import { contact, skills, jobHistories, shortDescription } from '../../config/cv.json';
+import CV from '../../config/cv.json';
+
+const { contact, skills, jobHistories, shortDescription } = CV;
 
 function App() {
   return (
